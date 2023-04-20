@@ -1,0 +1,99 @@
+div.wrapper > div.header {
+  width: 100%;
+  top: 0;
+  position: sticky;
+  background-color: white;
+  z-index: 7;
+}
+div.wrapper > div.header > div.head1 {
+  width: inherit;
+}
+div.wrapper > div.header > div.head1 > p > a > img {
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+}
+div.wrapper > div.header > div.head1 > div.logo {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 0;
+  display: flex;
+  background-color: white;
+}
+div.wrapper > div.header > div.head1 > div.logo > div.logo2 {
+  width: 12%;
+  display: flex;
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  z-index: 2;
+}
+div.wrapper > div.header > div.head1 > div.logo > div.logo2 > a > img {
+  width: 70%;
+  height: 40px;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+div.header > div.head1 > div.logo > div.searchbox {
+  width: 47%;
+  height: 45px;
+  background-color: #d0d0d046;
+  margin-left: 300px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+div.header > div.head1 > div.logo > div.searchbox > div.search {
+  width: inherit;
+  height: inherit;
+  padding: 10px 20px;
+  position: absolute;
+}
+div.header > div.head1 > div.logo > div.searchbox > div.search > span {
+  font-size: 20px;
+  position: absolute;
+  right: 60px;
+  top: 5px;
+  color: #727272;
+  font-weight: bold;
+}
+div.header > div.head1 > div.logo > div.searchbox > div.search > a {
+  fill: #727272;
+}
+div.header > div.head1 > div.logo > div.register {
+  width: 150px;
+  height: 45px;
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+div.header > div.head1 > div.logo > div.register > a {
+  display: flex;
+  width: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  color: #5f5f5f;
+}
+div.header > div.head1 > div.logo > div.register > a > div.regis {
+  padding: 10px 10px;
+  fill: #4e4e4e;
+  line-height: 45px;
+}
+div.header > div.head1 > div.logo > div.iconsabad {
+  width: 50px;
+  height: 50px;
+  fill: #4e4e4e;
+}
+div.header > div.head1 > div.logo > div.iconsabad > a {
+  fill: #4e4e4e;
+}
+div.header > div.head1 > div.logo > div.iconsabad > a > svg {
+  margin: 20px 20px;
+}
+div.header > div.head1 > div.logo > div.iconsabad > a > svg > use {
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+div.end {
+  width: 96%;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  top: 400px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #81858b;
+  line-height: 40px;
+}

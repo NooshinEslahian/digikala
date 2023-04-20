@@ -1,0 +1,546 @@
+div.grid1 {
+  width: 95%;
+  height: 420px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+div.grid1 > div:nth-of-type(1) {
+  width: 95%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  color: #424750;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+div.grid1 > div:nth-of-type(2) {
+  width: 100%;
+  height: 350px;
+  border: 2px solid rgba(214, 214, 214, 0.612);
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+div.grid1 > div:nth-of-type(2) > div.swiper-wrapper#gridkoofti {
+  background-color: blue;
+  width: inherit;
+  height: inherit;
+  border-radius: 20px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide#grid {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 1px) / 2) !important;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide#grid:nth-of-type(1) {
+  border-top-right-radius: 20px;
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(2) {
+  border-bottom-right-radius: 20px;
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(3) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(4) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(5) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(6) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(7) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(8) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(9) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(10) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(11) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(12) {
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(13) {
+  border-top-left-radius: 20px;
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+.swiper-slide#grid:nth-of-type(14) {
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgba(207, 207, 207, 0.573);
+}
+/*grid1*/
+.swiper-slide#grid > a#grid1 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid1 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid1 > div > div > img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+.swiper-slide#grid > a#grid1 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid2*/
+.swiper-slide#grid > a#grid2 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid2 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid2 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.swiper-slide#grid > a#grid2 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid3*/
+.swiper-slide#grid > a#grid3 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid3 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid3 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+.swiper-slide#grid > a#grid3 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid4*/
+.swiper-slide#grid > a#grid4 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid4 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid4 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid4 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid5*/
+.swiper-slide#grid > a#grid5 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid5 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid5 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid5 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid6*/
+.swiper-slide#grid > a#grid6 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid6 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid6 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid6 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid7*/
+.swiper-slide#grid > a#grid7 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid7 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid7 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid7 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid8*/
+.swiper-slide#grid > a#grid8 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid8 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid8 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid8 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid9*/
+.swiper-slide#grid > a#grid9 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid9 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid9 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid9 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid10*/
+.swiper-slide#grid > a#grid10 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid10 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid10 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid10 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid11*/
+.swiper-slide#grid > a#grid11 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid11 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid11 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid11 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid12*/
+.swiper-slide#grid > a#grid12 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid12 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid12 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid12 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid13*/
+.swiper-slide#grid > a#grid13 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid13 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid13 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid13 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*grid14*/
+.swiper-slide#grid > a#grid14 > div {
+  width: inherit;
+  height: inherit;
+  border-top-right-radius: 20px;
+  display: block;
+}
+.swiper-slide#grid > a#grid14 > div > div {
+  width: 50%;
+  height: 50%;
+  background-color: #7171711b;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  right: 40px;
+}
+.swiper-slide#grid > a#grid14 > div > div > img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  right: 7px;
+}
+.swiper-slide#grid > a#grid14 > h4 {
+  width: 170px;
+  height: 40px;
+  position: absolute;
+  top: 110px;
+  color: #424750;
+}
+/*nav*/
+.swiper-button-next,
+.swiper-button-prev {
+  margin-top: 70px;
+  margin-right: 13px;
+}
+.swiper-rtl .swiper-button-next:after {
+  display: block;
+  width: 50px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.685);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgb(201, 200, 200);
+}
+.swiper-button-next {
+  margin-left: 1%;
+  top: 80px;
+}

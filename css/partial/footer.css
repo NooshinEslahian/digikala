@@ -1,0 +1,638 @@
+div.footer {
+  width: 96%;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  top: 300px;
+}
+div.footer > div.log {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 10px;
+}
+div.footer > div.log > a {
+  width: 12%;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  display: block;
+  text-decoration: none;
+}
+div.footer > div.log > a > div {
+  width: 100%;
+  height: inherit;
+}
+div.footer > div.log > a > div > span {
+  width: 50%;
+  height: inherit;
+  font-size: 20px;
+  color: #a1a3a8;
+  position: relative;
+  right: 15px;
+}
+div.footer > div.log > a > div > svg {
+  width: 25%;
+  height: 30px;
+  fill: #a1a3a8;
+  position: relative;
+  top: 9px;
+  right: 10px;
+}
+div.footer > div.log > img {
+  width: 10%;
+  height: 30px;
+  position: relative;
+  top: 10px;
+}
+div.footer > div.posht {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  color: #424750;
+}
+div.footer > div.posht > p:nth-of-type(1) {
+  width: inherit;
+  height: inherit;
+  font-size: 18px;
+}
+div.footer > div.posht > div {
+  height: 60%;
+  position: absolute;
+  right: 200px;
+  top: 6px;
+  border-left: 1px solid lightgray;
+}
+div.footer > div.posht > p:nth-of-type(2) {
+  width: 30%;
+  height: inherit;
+  position: absolute;
+  right: 225px;
+  font-size: 18px;
+}
+/*footer1*/
+div.footer1 {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 120px;
+  display: flex;
+}
+div.footer1 > a:nth-of-type(1) {
+  display: block;
+  width: 10%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+div.footer1 > a:nth-of-type(1) > img {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  right: 10px;
+}
+div.footer1 > a:nth-of-type(1) > p {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  font-size: 15px;
+  color: #424750;
+  font-weight: bold;
+}
+div.footer1 > a:nth-of-type(2) {
+  display: block;
+  width: 10%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  right: 300px;
+}
+div.footer1 > a:nth-of-type(2) > img {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  right: 10px;
+}
+div.footer1 > a:nth-of-type(2) > p {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  font-size: 15px;
+  color: #424750;
+  font-weight: bold;
+}
+
+div.footer1 > a:nth-of-type(3) {
+  display: block;
+  width: 10%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  right: 530px;
+}
+div.footer1 > a:nth-of-type(3) > img {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  left: 2px;
+}
+div.footer1 > a:nth-of-type(3) > p {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  font-size: 15px;
+  color: #424750;
+  font-weight: bold;
+}
+
+div.footer1 > a:nth-of-type(4) {
+  display: block;
+  width: 10%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  left: 320px;
+}
+div.footer1 > a:nth-of-type(4) > img {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  left: 5px;
+}
+div.footer1 > a:nth-of-type(4) > p {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 70px;
+  right: 1px;
+  font-size: 15px;
+  color: #424750;
+  font-weight: bold;
+}
+
+div.footer1 > a:nth-of-type(5) {
+  display: block;
+  width: 10%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+div.footer1 > a:nth-of-type(5) > img {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  right: 2px;
+}
+div.footer1 > a:nth-of-type(5) > p {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  font-size: 15px;
+  color: #424750;
+  font-weight: bold;
+}
+/*footer2*/
+div.footer > div.footer2 {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  display: flex;
+}
+div.footer > div.footer2 > div:nth-of-type(1) {
+  width: 20%;
+  height: inherit;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > p {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #424750;
+  margin-bottom: 10px;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > a:nth-of-type(1) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > a:nth-of-type(2) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > a:nth-of-type(3) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > a:nth-of-type(4) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > a:nth-of-type(5) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(1) > a:nth-of-type(6) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+/**/
+div.footer > div.footer2 > div:nth-of-type(2) {
+  width: 20%;
+  height: inherit;
+  margin-right: 20px;
+}
+div.footer > div.footer2 > div:nth-of-type(2) > p {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #424750;
+  margin-bottom: 10px;
+}
+div.footer > div.footer2 > div:nth-of-type(2) > a:nth-of-type(1) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(2) > a:nth-of-type(2) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(2) > a:nth-of-type(3) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(2) > a:nth-of-type(4) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(2) > a:nth-of-type(5) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+/**/
+div.footer > div.footer2 > div:nth-of-type(3) {
+  width: 20%;
+  height: inherit;
+  margin-right: 20px;
+}
+div.footer > div.footer2 > div:nth-of-type(3) > p {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #424750;
+  margin-bottom: 10px;
+}
+div.footer > div.footer2 > div:nth-of-type(3) > a:nth-of-type(1) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(3) > a:nth-of-type(2) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+div.footer > div.footer2 > div:nth-of-type(3) > a:nth-of-type(3) {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a1a3a8;
+  text-decoration: none;
+  display: block;
+}
+/**/
+div.footer > div.footer2 > div:nth-of-type(4) {
+  width: 30%;
+  height: inherit;
+  position: absolute;
+  left: 0;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.social {
+  width: 100%;
+  height: 50%;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.social > h4 {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding-right: 20px;
+  color: #424750;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.social > div {
+  width: 100%;
+  height: calc(100% - 50%);
+  display: flex;
+}
+div.footer
+  > div.footer2
+  > div:nth-of-type(4)
+  > div.social
+  > div
+  > a:nth-of-type(1) {
+  display: block;
+  width: 10%;
+  height: 40px;
+  fill: #a1a3a8;
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+div.footer
+  > div.footer2
+  > div:nth-of-type(4)
+  > div.social
+  > div
+  > a:nth-of-type(2) {
+  display: block;
+  width: 10%;
+  height: 40px;
+  fill: #a1a3a8;
+  position: relative;
+  top: 10px;
+  right: 40px;
+}
+div.footer
+  > div.footer2
+  > div:nth-of-type(4)
+  > div.social
+  > div
+  > a:nth-of-type(3) {
+  display: block;
+  width: 10%;
+  height: 40px;
+  fill: #a1a3a8;
+  position: relative;
+  top: 10px;
+  right: 80px;
+}
+div.footer
+  > div.footer2
+  > div:nth-of-type(4)
+  > div.social
+  > div
+  > a:nth-of-type(4) {
+  display: block;
+  width: 10%;
+  height: 40px;
+  fill: #a1a3a8;
+  position: relative;
+  top: 10px;
+  right: 120px;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.email {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.email > h4 {
+  width: 100%;
+  height: 40%;
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #424750;
+  padding-right: 15px;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.email > div {
+  width: 100%;
+  height: 80px;
+}
+div.footer > div.footer2 > div:nth-of-type(4) > div.email > div > form {
+  width: 100%;
+  height: 70px;
+}
+div.footer
+  > div.footer2
+  > div:nth-of-type(4)
+  > div.email
+  > div
+  > form
+  > input:nth-of-type(1) {
+  width: 65%;
+  height: 50px;
+  background-color: white;
+  font-size: 25px;
+  padding-right: 10px;
+  color: #a1a3a8;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+}
+div.footer
+  > div.footer2
+  > div:nth-of-type(4)
+  > div.email
+  > div
+  > form
+  > input:nth-of-type(2) {
+  width: 20%;
+  height: 50px;
+  background-color: white;
+  color: #a1a3a8;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin-right: 32px;
+}
+/*end footer*/
+div.footer > div.footerend {
+  width: 100%;
+  height: 80px;
+  background-color: #3c4b6d;
+  position: absolute;
+  top: 640px;
+  border-radius: 10px;
+  display: flex;
+}
+div.footer > div.footerend > div:nth-of-type(1) {
+  width: 29%;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+}
+div.footer > div.footerend > div:nth-of-type(1) > img {
+  width: 14%;
+  height: 45px;
+  position: relative;
+  top: 18px;
+  right: 15px;
+}
+div.footer > div.footerend > div:nth-of-type(1) > div {
+  width: 73%;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  right: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-right: 20px;
+}
+div.footer > div.footerend > div:nth-of-type(2) {
+  width: 58%;
+  height: inherit;
+  margin-right: 50px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(1) {
+  display: inline-block;
+  width: 22%;
+  height: 50px;
+  position: relative;
+  top: 18px;
+  right: 15px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(1) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(2) {
+  display: inline-block;
+  width: 22%;
+  height: 50px;
+  position: relative;
+  top: 18px;
+  right: 28px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(2) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(3) {
+  display: inline-block;
+  width: 22%;
+  height: 50px;
+  position: relative;
+  top: 18px;
+  right: 42px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(3) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(4) {
+  display: inline-block;
+  width: 22%;
+  height: 50px;
+  position: relative;
+  top: 18px;
+  right: 55px;
+}
+div.footer > div.footerend > div:nth-of-type(2) > a:nth-of-type(4) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+
+div.footer > div.footerend > div:nth-of-type(3) {
+  width: 55px;
+  height: 45px;
+  position: relative;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+div.footer > div.footerend > div:nth-of-type(3) > a {
+  display: block;
+  position: relative;
+  right: 20px;
+  top: 10px;
+}

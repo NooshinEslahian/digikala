@@ -1,0 +1,121 @@
+div.body10 {
+  width: 96%;
+  height: 300px;
+  position: relative;
+  top: 370px;
+  margin: 0 auto;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+div.body10 > div.box {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top: 25px;
+  display: flex;
+}
+div.body10 > div.box > div.right {
+  width: 58%;
+  height: inherit;
+}
+div.body10 > div.box > div.right > h1 {
+  width: 90%;
+  height: 60px;
+  font-size: 20px;
+  line-height: 60px;
+  color: #424750;
+  font-weight: bold;
+  margin-top: 30px;
+}
+div.body10 > div.box > div.right > p {
+  width: 100%;
+  height: 100px;
+  font-size: 19px;
+  color: #62666d;
+  line-height: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+div.body10 > div.box > div.right > span {
+  width: 20%;
+  height: calc(250px - 180px);
+  position: absolute;
+  padding-top: 10px;
+}
+div.body10 > div.box > div.right > span > a {
+  display: inline-block;
+  width: 40%;
+  height: 45%;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #62666d;
+}
+div.body10 > div.box > div.right > span > a > span {
+  width: 40%;
+  height: 50%;
+}
+div.body10 > div.box > div.right > span > a > svg {
+  position: relative;
+  top: 5px;
+  fill: #19bfd3;
+}
+/*div left*/
+div.body10 > div.box > div.left {
+  width: calc(100% - 58%);
+  height: inherit;
+  display: flex;
+}
+div.body10 > div.box > div.left > a:nth-of-type(1) {
+  display: block;
+  width: 26%;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+div.body10 > div.box > div.left > a:nth-of-type(1) > img {
+  width: 73%;
+  height: 73%;
+  position: absolute;
+  top: 20px;
+  right: 17px;
+}
+div.body10 > div.box > div.left > a:nth-of-type(2) {
+  display: block;
+  width: 26%;
+  height: 120px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  position: relative;
+  top: 60px;
+  right: 105px;
+}
+div.body10 > div.box > div.left > a:nth-of-type(2) > img {
+  width: 59%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+div.body10 > div.box > div.left > a:nth-of-type(3) {
+  display: block;
+  width: 26%;
+  height: 120px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  position: relative;
+  top: 60px;
+  right: 110px;
+}
+div.body10 > div.box > div.left > a:nth-of-type(3) > img {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 20px;
+  right: 17px;
+}

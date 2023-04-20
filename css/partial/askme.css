@@ -1,0 +1,20 @@
+div.askme {
+  width: 48px;
+  height: 48px;
+  background-color: crimson;
+  border-radius: 50%;
+  position: fixed;
+  left: 50px;
+  top: calc(100vh - 60px);
+  z-index: 2;
+}
+div.askme > a > svg {
+  display: block;
+  position: absolute;
+  left: calc(50% - 24px / 2);
+  top: calc(50% - 24px / 2);
+  color: azure;
+}
+div.askme > a > svg > use {
+  fill: azure;
+}

@@ -1,0 +1,63 @@
+div.body3 {
+  width: 96%;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+div.body3 > a:nth-of-type(1) {
+  display: block;
+  width: 23%;
+  height: 230px;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+}
+div.body3 > a:nth-of-type(1) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10%;
+}
+div.body3 > a:nth-of-type(2) {
+  display: block;
+  width: 23%;
+  height: 230px;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+  right: 37px;
+}
+div.body3 > a:nth-of-type(2) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10%;
+}
+div.body3 > a:nth-of-type(3) {
+  display: block;
+  width: 23%;
+  height: 230px;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+  right: 67px;
+}
+div.body3 > a:nth-of-type(3) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10%;
+}
+div.body3 > a:nth-of-type(4) {
+  display: block;
+  width: 23%;
+  height: 230px;
+  position: relative;
+  top: 10px;
+  border-radius: 10px;
+  right: 97px;
+}
+div.body3 > a:nth-of-type(4) > img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10%;
+}
